@@ -1,0 +1,19 @@
+#resume .resume-section-avatar {
+  max-width: 150px;
+}
+
+#resume .resume-section-main-header {
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+
+#resume .resume-section-head {
+  font-size: 22px;
+  line-height: 25px;
+
+}
+
+#resume .resume-section-content-left {
+  text-align: left;
+}

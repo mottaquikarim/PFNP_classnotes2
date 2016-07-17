@@ -1,0 +1,50 @@
+h1 { /* css selector, tagName selector */
+	color: red; /* css rule: value; */
+	font-size: 32px;
+} /* specificity = 1 */
+
+
+.education > h1 { /* also equivalent to above */
+	/*color: white;*/
+} /* specificity = 11 */
+
+section > h1 {
+	color: blue;
+	background: green;
+} /* specificity = 2 */
+
+/*
+
+	section h1 {}
+	^^^ this will find ALL sections
+	and then find ALL h1s within that section
+	does not care if the h1 is several levels deep
+
+	section > h1 {}
+	^^^ this will find ALL sections
+	and then final ALL FIRST LEVEL h1 children
+	ONLY
+
+*/
+
+
+
+.education { /* css selector, className selector */
+	border: 2px solid black;
+} /* specificity = 10 &*/
+
+.work {
+	border: 2px solid red;
+}
+
+.work.journalism {
+	border: 2px dashed red;
+} /* specificity = 20 */
+
+#LOLWUT {
+	border: 10px solid yellow;
+} /* specificity = Infinity */
+
+
+
+

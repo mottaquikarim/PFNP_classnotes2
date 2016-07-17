@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Giphy Search</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.css">
+		<link rel="stylesheet" href="styles/app.css">
+
+	</head>
+	<body id="search">
+		<div class="ui two column centered grid">
+			<div class="column">
+				<br/>
+				<div class="ui horizontal divider header resume-section-head">
+				  <i class="tag icon"></i>
+				  Giphy Search Engine
+				</div>
+				<div class="ui segment">
+					<div class="ui fluid action input huge">
+					  <input type="text" placeholder="Search..." class="js-search-query">
+					  <div class="ui button primary js-search">Search</div>
+					</div>
+				</div><!-- segment -->
+
+				<div class="ui segment js-results">
+
+				</div>
+			</div><!-- column -->
+		</div><!-- two column centered grid -->
+
+		<!-- https://developers.google.com/speed/libraries/#jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="javascript/main.js"></script>
+	</body>
+</html>
